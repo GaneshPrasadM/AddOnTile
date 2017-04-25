@@ -1,5 +1,5 @@
 {
-    "clientUrl": "http://localhost",
+    "clientUrl": "https://safe-tundra-59540.herokuapp.com/",
     "port": "5000",
     "development" : true,
 	  "clientUrlExcludesPort": true,
