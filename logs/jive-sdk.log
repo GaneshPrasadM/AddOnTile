@@ -1,0 +1,72 @@
+[2017-04-21 13:22:39.933] [INFO] jive-sdk - Http node setup
+[2017-04-21 13:22:39.972] [DEBUG] jive-sdk - definitions:
+[
+    {
+        "sampleData": {
+            "title": "sampletile-list tile-list",
+            "contents": [
+                {
+                    "text": "Initial text to be replaced"
+                }
+            ],
+            "config": {
+                "listStyle": "contentList"
+            }
+        },
+        "displayName": "sampletile-list",
+        "name": "sampletile-list",
+        "description": "sampletile-list",
+        "style": "LIST",
+        "icons": {
+            "16": "https://developer.jivesoftware.com/DeveloperAssets/images/icons/jivedev-xsmall.png",
+            "48": "https://developer.jivesoftware.com/DeveloperAssets/images/icons/jivedev-small.png",
+            "128": "https://developer.jivesoftware.com/DeveloperAssets/images/icons/jivedev-med.png"
+        },
+        "action": "http://localhost/sampletile-list/action",
+        "config": "http://localhost/sampletile-list/configure",
+        "unregister": "http://localhost/unregister",
+        "register": "http://localhost/registration"
+    }
+]
+[2017-04-21 13:22:39.973] [DEBUG] jive-sdk - templates:
+null
+[2017-04-21 13:22:39.974] [DEBUG] jive-sdk - apps:
+[]
+[2017-04-21 13:22:39.974] [DEBUG] jive-sdk - storageDefinitions:
+[]
+[2017-04-21 13:22:39.974] [DEBUG] jive-sdk - cartridges:
+[]
+[2017-04-21 13:22:39.983] [DEBUG] jive-sdk - Extension meta: 
+{
+    "package_version": "1.0",
+    "id": "2fd2a39e-ccdc-48c9-bbc7-b6ce713c791f",
+    "type": "client-app",
+    "name": "sampletile-list",
+    "description": "Description for sampletile-list",
+    "minimum_version": "0070300000",
+    "icon_16": "extension-16.png",
+    "icon_48": "extension-48.png",
+    "icon_128": "extension-128.png",
+    "redirect_url": "%serviceURL%",
+    "released_on": "2017-04-17T05:34:05.654Z",
+    "service_url": "http://localhost"
+}
+[2017-04-21 13:22:40.249] [DEBUG] jive-sdk - Zipping extension_src/definition.json to extension.zip  :  definition.json
+[2017-04-21 13:22:40.252] [DEBUG] jive-sdk - Zipping extension_src/meta.json to extension.zip  :  meta.json
+[2017-04-21 13:22:40.299] [DEBUG] jive-sdk - Zipping extension_src/data/extension-128.png to extension.zip  :  data/extension-128.png
+[2017-04-21 13:22:40.300] [DEBUG] jive-sdk - Zipping extension_src/data/eula.html to extension.zip  :  data/eula.html
+[2017-04-21 13:22:40.301] [DEBUG] jive-sdk - Zipping extension_src/data/extension-48.png to extension.zip  :  data/extension-48.png
+[2017-04-21 13:22:40.301] [DEBUG] jive-sdk - Zipping extension_src/data/extension-16.png to extension.zip  :  data/extension-16.png
+[2017-04-21 13:22:40.302] [DEBUG] jive-sdk - Zipping extension_src/data/overview.html to extension.zip  :  data/overview.html
+[2017-04-21 13:22:40.303] [DEBUG] jive-sdk - Zipping extension_src/data/screenshot_1.png to extension.zip  :  data/screenshot_1.png
+[2017-04-21 13:22:40.303] [DEBUG] jive-sdk - Zipping extension_src/i18n/en.properties to extension.zip  :  i18n/en.properties
+[2017-04-21 13:22:40.304] [DEBUG] jive-sdk - Zipping extension_src/i18n/root.properties to extension.zip  :  i18n/root.properties
+[2017-04-21 13:22:40.305] [DEBUG] jive-sdk - Zipping extension_src/data/screenshot_2.png to extension.zip  :  data/screenshot_2.png
+[2017-04-21 13:22:40.312] [DEBUG] jive-sdk - Zipping extension_src/data/install_instructions.html to extension.zip  :  data/install_instructions.html
+[2017-04-21 13:22:40.312] [DEBUG] jive-sdk - Zipping extension_src/data/privacy_policy.html to extension.zip  :  data/privacy_policy.html
+[2017-04-21 13:22:40.365] [INFO] jive-sdk - Bootstrap complete.
+[2017-04-21 13:22:40.366] [INFO] jive-sdk - Jive SDK version 0.2.14
+[2017-04-21 13:22:40.366] [INFO] jive-sdk - Started service in  self-contained mode
+[2017-04-21 13:22:40.369] [DEBUG] jive-sdk - Scheduled task: sampletile-list.10000.0 10000
+[2017-04-21 13:22:40.370] [INFO] jive-sdk - Service started in development mode
+[2017-04-21 13:22:54.880] [INFO] jive-sdk - Updated 2 data file(s): [tileDefinition, jiveExtension]

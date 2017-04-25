@@ -1,0 +1,12 @@
+{
+  "jiveExtension": {
+    "id": "2fd2a39e-ccdc-48c9-bbc7-b6ce713c791f",
+    "uuid": "2fd2a39e-ccdc-48c9-bbc7-b6ce713c791f",
+    "name": "sampletile-list",
+    "description": "Description for sampletile-list",
+    "icon_16": "extension-16.png",
+    "icon_48": "extension-48.png",
+    "icon_128": "extension-128.png",
+    "releasedOn": "2017-04-17T05:34:05.654Z"
+  }
+}
