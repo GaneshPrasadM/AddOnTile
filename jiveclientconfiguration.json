@@ -1,6 +1,6 @@
 {
     "clientUrl": "http://localhost",
-    "port": "8090",
+    "port": "5000",
     "development" : true,
 	  "clientUrlExcludesPort": true,
     "logLevel": "DEBUG",
