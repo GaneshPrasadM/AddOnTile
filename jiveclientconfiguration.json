@@ -1,5 +1,5 @@
 {
-    "clientUrl": "https://safe-tundra-59540.herokuapp.com/",
+    "clientUrl": "https://safe-tundra-59540.herokuapp.com/sampletile-list/configure",
     "port": "5000",
     "development" : true,
 	  "clientUrlExcludesPort": true,
