@@ -34,7 +34,7 @@
     "codeVersionString": "jive",
     "adminPort" : 8091,
     "statsdClientConfig": {
-      "host" : "https://polar-retreat-63283.herokuapp.com/",
+      "host" : "%serviceURL%",
       "port" : 8125,
       "interval" : 1000,
       "servicePrefix" : "jive"
