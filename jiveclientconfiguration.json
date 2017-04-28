@@ -1,5 +1,5 @@
 {
-    "clientUrl": "%serviceURL%/",
+    "clientUrl": "http://localhost",
     "port": "5000",
     "development" : true,
 	  "clientUrlExcludesPort": true,
@@ -34,7 +34,7 @@
     "codeVersionString": "jive",
     "adminPort" : 8091,
     "statsdClientConfig": {
-      "host" : "%serviceURL%",
+      "host" : "http://localhost",
       "port" : 8125,
       "interval" : 1000,
       "servicePrefix" : "jive"
